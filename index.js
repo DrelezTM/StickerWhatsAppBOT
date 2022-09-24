@@ -55,7 +55,7 @@ client.on('message', async (message) => {
             client.sendMessage(message.from, media).then(() => {
                 client.sendMessage(message.from, "*[✅]* Successfully!");
             });
-        } catch (e) {
+        } catch {
             client.sendMessage(message.from, "*[❎]* Failed!");
         }
     }
