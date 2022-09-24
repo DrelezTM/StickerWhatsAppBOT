@@ -15,7 +15,7 @@ const client = new Client({
 const config = require('./config/config.json');
 
 client.on('qr', (qr) => {
-    console.log(`[${moment().tz('Asia/Jakarta').format('HH:mm:ss')}] Scan QR Code dibawah ini : `);
+    console.log(`[${moment().tz(config.timezone).format('HH:mm:ss')}] Scan the QR below : `);
     qrcode.generate(qr, { small: true });
 });
  
