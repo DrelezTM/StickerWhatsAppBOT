@@ -23,6 +23,20 @@
   ```sh
   npm start
   ```
+* Scan QR
+  <img alt="@stickerwhatsappbot" src="https://media.discordapp.net/attachments/858321432178196490/1023202756049240145/ss2.png?width=1440&height=566">
+
+* Ready
+  <img alt="@stickerwhatsappbot" src="https://media.discordapp.net/attachments/858321432178196490/1023202755709517834/ss1.png?width=1440&height=241">
+ 
+ ## Configuration
+* [config.json](https://github.com/DrelezTM/StickerWhatsAppBOT/blob/main/config/config.json)
+  ```json
+  {
+    "name": "StickerBOT",
+    "author": "DrelezTM"
+  }
+  ```
  
  ## How to Use
  * Send Image to Sticker
