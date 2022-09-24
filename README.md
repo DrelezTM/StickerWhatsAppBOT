@@ -34,7 +34,8 @@
   ```json
   {
     "name": "StickerBOT",
-    "author": "DrelezTM"
+    "author": "DrelezTM",
+    "timezone": "Asia/Jakarta"
   }
   ```
  
