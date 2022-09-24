@@ -40,10 +40,10 @@
  
  ## How to Use
  * Send Image to Sticker
-  <img alt="@stickerwhatsappbot" src="https://cdn.discordapp.com/attachments/858321432178196490/1023197425587994714/IMG_20220924_184044.jpg">
+   <img alt="@stickerwhatsappbot" src="https://cdn.discordapp.com/attachments/858321432178196490/1023197425587994714/IMG_20220924_184044.jpg">
   
  * Send Sticker to Image
-  <img alt="@stickerwhatsappbot" src="https://cdn.discordapp.com/attachments/858321432178196490/1023197425332133989/IMG_20220924_184103.jpg">
+   <img alt="@stickerwhatsappbot" src="https://cdn.discordapp.com/attachments/858321432178196490/1023197425332133989/IMG_20220924_184103.jpg">
 
 ## Built With
 * [WhatsApp-web.js](https://github.com/pedroslopez/whatsapp-web.js/)
