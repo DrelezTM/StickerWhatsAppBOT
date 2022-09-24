@@ -24,11 +24,11 @@ client.on('ready', () => {
     const consoleText = './config/console.txt';
     fs.readFile(consoleText, 'utf-8', (err, data) => {
         if (err) {
-            console.log(`[${moment().tz('Asia/Jakarta').format('HH:mm:ss')}] Console Text not found!`.yellow);
-            console.log(`[${moment().tz('Asia/Jakarta').format('HH:mm:ss')}] ${config.name} is Already!`.green);
+            console.log(`[${moment().tz(config.timezone).format('HH:mm:ss')}] Console Text not found!`.yellow);
+            console.log(`[${moment().tz(config.timezone).format('HH:mm:ss')}] ${config.name} is Already!`.green);
         } else {
             console.log(data.green);
-            console.log(`[${moment().tz('Asia/Jakarta').format('HH:mm:ss')}] ${config.name} is Already!`.green);
+            console.log(`[${moment().tz(config.timezone).format('HH:mm:ss')}] ${config.name} is Already!`.green);
         }
     })
 });
