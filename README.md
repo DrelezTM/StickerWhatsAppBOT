@@ -7,7 +7,7 @@
   <p>Sticker WhatsAppBOT with <a href="https://github.com/pedroslopez/whatsapp-web.js/">whatsapp-web.js</a> and <a href="https://nodejs.org/en/">nodejs</a></p>
 </div>
 <div align="center">
-  <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/DrelezTM/StickerWhatsAppBOT/">Repository</a>
+  <a href="#warning">Warning</a> | <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/DrelezTM/StickerWhatsAppBOT/">Repository</a>
 </div>
 
 ## Installation
@@ -60,3 +60,6 @@
 
 ## License
 * [License](https://github.com/DrelezTM/StickerWhatsAppBOT/blob/main/LICENSE)
+
+## Warning
+<p id="warning">Only works on Windows, MacOS, and Linux. <b>Can't work on Android/Termux</b>!</p>
