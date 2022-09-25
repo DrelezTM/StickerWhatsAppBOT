@@ -1,4 +1,4 @@
-const { Client, LocalAuth } = require('whatsapp-web.js');
+const { Client, LocalAuth, Chat } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const moment = require('moment-timezone');
 const colors = require('colors');
@@ -54,10 +54,14 @@ client.on('message', async (message) => {
             const media = await message.downloadMedia();
             client.sendMessage(message.from, media).then(() => {
                 client.sendMessage(message.from, "*[✅]* Successfully!");
-            });
+            });  
         } catch {
             client.sendMessage(message.from, "*[❎]* Failed!");
         }
+    } else {
+        client.getChatById(message.id.remote).then(async (chat) => {
+            await chat.sendSeen();
+        });
     }
 });
 
