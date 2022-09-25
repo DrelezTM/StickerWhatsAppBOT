@@ -10,7 +10,7 @@
   <a href="#warning">Warning</a> | <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/DrelezTM/StickerWhatsAppBOT/">Repository</a>
 </div>
 
-## Installation
+## 📑 Installation
 * Clone Repository
   ```sh
   git clone https://github.com/DrelezTM/StickerWhatsAppBOT
