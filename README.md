@@ -10,7 +10,7 @@
   <a href="#warning">Warning</a> | <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/DrelezTM/StickerWhatsAppBOT/">Repository</a>
 </div>
 
-## 📑 Installation
+## Installation 📑
 * Clone Repository
   ```sh
   git clone https://github.com/DrelezTM/StickerWhatsAppBOT
@@ -29,7 +29,7 @@
 * Ready
   <img alt="@stickerwhatsappbot" src="https://media.discordapp.net/attachments/858321432178196490/1023202755709517834/ss1.png?width=1440&height=241">
  
- ## Configuration
+ ## Configuration 🗝
 * [config.json](https://github.com/DrelezTM/StickerWhatsAppBOT/blob/main/config/config.json)
   ```json
   {
@@ -39,27 +39,27 @@
   }
   ```
  
- ## How to Use
+ ## How to Use 🔭
  * Send Image to Sticker
    <img alt="@stickerwhatsappbot" src="https://cdn.discordapp.com/attachments/858321432178196490/1023197425587994714/IMG_20220924_184044.jpg">
   
  * Send Sticker to Image
    <img alt="@stickerwhatsappbot" src="https://cdn.discordapp.com/attachments/858321432178196490/1023197425332133989/IMG_20220924_184103.jpg">
 
-## Built With
+## Built With 🛠
 * [WhatsApp-web.js](https://github.com/pedroslopez/whatsapp-web.js/)
 * [QRCode-Terminal](https://www.npmjs.com/package/qrcode-terminal)
 * [Moment-Timezone](https://www.npmjs.com/package/moment-timezone)
 * [Colors](https://www.npmjs.com/package/colors)
 * [FS](https://www.npmjs.com/package/fs)
 
-## Error or Bug
+## Error or Bug 🐞
 * [Discord](https://dsc.gg/DrelezTM)
 * [YouTube](https://www.youtube.com/p/DrelezTM)
 * [Instagram](https://www.instagram.com/DrelezTM)
 
-## License
+## License 📜
 * [License](https://github.com/DrelezTM/StickerWhatsAppBOT/blob/main/LICENSE)
 
-## Warning
+## Warning 🚧
 <p id="warning">Only works on Windows, MacOS, and Linux. <b>Can't work on Android/Termux</b>!</p>
