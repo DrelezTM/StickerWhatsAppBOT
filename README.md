@@ -10,6 +10,16 @@
   <a href="#warning">Warning</a> | <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/DrelezTM/StickerWhatsAppBOT/">Repository</a>
 </div>
 
+ ## Configuration 🗝
+* [config.json](https://github.com/DrelezTM/StickerWhatsAppBOT/blob/main/config/config.json)
+  ```json
+  {
+    "name": "StickerBOT",
+    "author": "DrelezTM",
+    "timezone": "Asia/Jakarta"
+  }
+  ```
+
 ## Installation 📑
 * Clone Repository
   ```sh
@@ -28,16 +38,6 @@
 
 * Ready
   <img alt="@stickerwhatsappbot" src="https://media.discordapp.net/attachments/858321432178196490/1023202755709517834/ss1.png?width=1440&height=241">
- 
- ## Configuration 🗝
-* [config.json](https://github.com/DrelezTM/StickerWhatsAppBOT/blob/main/config/config.json)
-  ```json
-  {
-    "name": "StickerBOT",
-    "author": "DrelezTM",
-    "timezone": "Asia/Jakarta"
-  }
-  ```
  
  ## How to Use 🔭
  * Send Image to Sticker
