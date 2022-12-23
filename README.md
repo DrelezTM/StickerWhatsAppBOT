@@ -7,7 +7,7 @@
   <p>Sticker WhatsAppBOT with <a href="https://github.com/pedroslopez/whatsapp-web.js/">whatsapp-web.js</a> and <a href="https://nodejs.org/en/">nodejs</a></p>
 </div>
 <div align="center">
-  <a href="#warning">Warning</a> | <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/DrelezTM/StickerWhatsAppBOT/">Repository</a>
+  <a href="#warning">Warning</a> | <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/DrelezTM/StickerWhatsAppBOT/issues">Issues</a>
 </div>
 
  ## Configuration 🗝
@@ -57,6 +57,7 @@
 * [Discord](https://dsc.gg/DrelezTM)
 * [YouTube](https://www.youtube.com/p/DrelezTM)
 * [Instagram](https://www.instagram.com/DrelezTM)
+* [Issues](https://github.com/DrelezTM/StickerWhatsAppBOT/issues)
 
 ## License 📜
 * [License](https://github.com/DrelezTM/StickerWhatsAppBOT/blob/main/LICENSE)
