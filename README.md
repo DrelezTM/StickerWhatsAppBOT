@@ -16,10 +16,28 @@
   {
     "name": "StickerBOT",
     "author": "DrelezTM",
-    "timezone": "Asia/Jakarta"
-  }
+    "timezone": "Asia/Jakarta",
+    "groups": true
+  } 
   ```
+  * config.name : *name for the sticker* (string)
+  * config.author : *name for sticker maker* (string)
+  * config.timezone : *timezone displays the time at the specified location* (string)
+  * config.groups : *to filter whether bots can respond to group chats or not* (boolean)
+* [console.txt](https://github.com/DrelezTM/StickerWhatsAppBOT/blob/main/config/console.txt)
+  ```txt
+  
+    /$$$$$$   /$$     /$$           /$$                           /$$$$$$$   /$$$$$$  /$$$$$$$$
+   /$$__  $$ | $$    |__/          | $$                          | $$__  $$ /$$__  $$|__  $$__/
+  | $$  \__//$$$$$$   /$$  /$$$$$$$| $$   /$$  /$$$$$$   /$$$$$$ | $$  \ $$| $$  \ $$   | $$   
+  |  $$$$$$|_  $$_/  | $$ /$$_____/| $$  /$$/ /$$__  $$ /$$__  $$| $$$$$$$ | $$  | $$   | $$   
+   \____  $$ | $$    | $$| $$      | $$$$$$/ | $$$$$$$$| $$  \__/| $$__  $$| $$  | $$   | $$   
+   /$$  \ $$ | $$ /$$| $$| $$      | $$_  $$ | $$_____/| $$      | $$  \ $$| $$  | $$   | $$   
+  |  $$$$$$/ |  $$$$/| $$|  $$$$$$$| $$ \  $$|  $$$$$$$| $$      | $$$$$$$/|  $$$$$$/   | $$   
+   \______/   \___/  |__/ \_______/|__/  \__/ \_______/|__/      |_______/  \______/    |__/   
 
+  ```
+  You can replace ascii in https://patorjk.com/software/taag/
 ## Installation 📑
 * Clone Repository
   ```sh
