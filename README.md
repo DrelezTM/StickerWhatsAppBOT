@@ -10,6 +10,25 @@
   <a href="#warning">Warning</a> | <a href="https://dsc.gg/DrelezTM">Report Bug</a> | <a href="https://github.com/DrelezTM/StickerWhatsAppBOT/issues">Issues</a>
 </div>
 
+## Installation 📑
+* Clone Repository
+  ```sh
+  git clone https://github.com/DrelezTM/StickerWhatsAppBOT
+  ```
+* Install Modules
+  ```sh
+  npm install
+  ```
+* Start
+  ```sh
+  npm start
+  ```
+* Scan QR
+  <img alt="@stickerwhatsappbot" src="https://media.discordapp.net/attachments/858321432178196490/1023202756049240145/ss2.png?width=1440&height=566">
+
+* Ready
+  <img alt="@stickerwhatsappbot" src="https://media.discordapp.net/attachments/858321432178196490/1023202755709517834/ss1.png?width=1440&height=241">
+ 
  ## Configuration 🗝
 * [config.json](https://github.com/DrelezTM/StickerWhatsAppBOT/blob/main/config/config.json)
   ```json
@@ -38,24 +57,6 @@
 
   ```
   You can replace ascii in https://patorjk.com/software/taag/
-## Installation 📑
-* Clone Repository
-  ```sh
-  git clone https://github.com/DrelezTM/StickerWhatsAppBOT
-  ```
-* Install Modules
-  ```sh
-  npm install
-  ```
-* Start
-  ```sh
-  npm start
-  ```
-* Scan QR
-  <img alt="@stickerwhatsappbot" src="https://media.discordapp.net/attachments/858321432178196490/1023202756049240145/ss2.png?width=1440&height=566">
-
-* Ready
-  <img alt="@stickerwhatsappbot" src="https://media.discordapp.net/attachments/858321432178196490/1023202755709517834/ss1.png?width=1440&height=241">
  
  ## How to Use 🔭
  * Send Image to Sticker
