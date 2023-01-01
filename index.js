@@ -65,8 +65,6 @@ client.on('message', async (message) => {
                 await chat.sendSeen();
             });
         }
-    } else {
-        client.sendMessage(message.from, 'groups verified')
     }
 });
 
