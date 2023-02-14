@@ -10,6 +10,7 @@ const client = new Client({
         headless: true,
         args: [ '--no-sandbox', '--disable-setuid-sandbox' ]
     },
+    ffmpeg: './ffmpeg.exe',
     authStrategy: new LocalAuth({ clientId: "client" })
 });
 const config = require('./config/config.json');
@@ -36,7 +37,7 @@ client.on('ready', () => {
 client.on('message', async (message) => {
     const isGroups = message.from.endsWith('@g.us') ? true : false;
     if ((isGroups && config.groups) || !isGroups) {
-        if (message.type == "image") {
+        if (message.type == "image" || message.type == "video" || message.type  == "gif") {
             client.sendMessage(message.from, "*[⏳]* Loading..");
             try {
                 const media = await message.downloadMedia();
