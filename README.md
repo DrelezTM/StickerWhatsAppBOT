@@ -34,13 +34,15 @@
   ```json
   {
     "name": "StickerBOT",
-    "author": "DrelezTM",
+    "author": "@DrelezTM",
+    "prefix": "!",
     "timezone": "Asia/Jakarta",
     "groups": true
-  } 
+  }
   ```
   * config.name : *name for the sticker* (string)
   * config.author : *name for sticker maker* (string)
+  * config.prefix : *prefix for command* (string)
   * config.timezone : *timezone displays the time at the specified location* (string)
   * config.groups : *to filter whether bots can respond to group chats or not* (boolean)
 * [console.txt](https://github.com/DrelezTM/StickerWhatsAppBOT/blob/main/config/console.txt)
@@ -71,6 +73,45 @@
  * Send Sticker to Image
    <img alt="@stickerwhatsappbot" src="https://cdn.discordapp.com/attachments/858321432178196490/1023197425332133989/IMG_20220924_184103.jpg">
 
+
+## Features 
+  |                   Features                  	| Status 	|
+  |:-------------------------------------------:	|:------:	|
+  | Image to Sticker                            	|    ✅   	|
+  | Video to Sticker                            	|    ✅   	|
+  | Gif to Sticker                              	|    ✅   	|
+  | Sticker to Image                            	|    ✅   	|
+  | Sticker to Video                            	|    ❎   	|
+  | Change Sticker Name & Sticker Author        	|    ✅   	|
+  | Prefix can be set in the config/config.json 	|    ✅   	|
+  | Supports Reply Image to Sticker             	|    ✅   	|
+  | Supports Reply Video to Sticker             	|    ✅   	|
+  | Supports Reply Gif to Sticker               	|    ✅   	|
+  | Supports Reply Stickers to Images           	|    ✅   	|
+
+## Commands
+  <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-0pky">Commands</th>
+        <th class="tg-0pky">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0pky">!sticker</td>
+        <td class="tg-0pky">Make Image/Video/Gif into Sticker. You can also send Image/Video/Gif into Sticker directly without Command. [in the Caption or Reply message]</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">!image</td>
+        <td class="tg-0pky">Make Sticker into Image. You can also send Image/Video/Gif into Sticker directly without Command. [in the Reply message]</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">!change &lt;name&gt; | &lt;author&gt;</td>
+        <td class="tg-0pky">Change Sticker Name &amp; Sticker Author as you wish. [in the Reply message]</td>
+      </tr>
+    </tbody>
+  </table>
 
 ## Built With 🛠
 * [WhatsApp-web.js](https://github.com/pedroslopez/whatsapp-web.js/)
