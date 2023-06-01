@@ -60,7 +60,7 @@
   ```
   You can replace ascii in https://patorjk.com/software/taag/
 
-## Features 
+## Features 📋
   |                   Features                  	| Status 	|
   |:-------------------------------------------:	|:------:	|
   | Image to Sticker                            	|    ✅   	|
@@ -75,7 +75,7 @@
   | Supports Reply Gif to Sticker               	|    ✅   	|
   | Supports Reply Stickers to Images           	|    ✅   	|
 
-## Commands
+## Commands 💭
   <table class="tg">
     <thead>
       <tr>
