@@ -107,7 +107,7 @@ client.on('message', async (message) => {
         // Claim or change sticker name and sticker author
         } else if (message.body.startsWith(`${config.prefix}change`)) {
             if (message.body.includes('|')) {
-                let name = message.body.split('|')[0].replaceAll(message.body.split(' ')[0], '').trim();
+                let name = message.body.split('|')[0].replace(message.body.split(' ')[0], '').trim();
                 let author = message.body.split('|')[1].trim();
                 const quotedMsg = await message.getQuotedMessage(); 
                 if (message.hasQuotedMsg && quotedMsg.hasMedia) {
