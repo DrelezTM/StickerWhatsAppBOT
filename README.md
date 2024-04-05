@@ -1,6 +1,7 @@
 # StickerWhatsAppBOT
 <p align="center">
-  <img alt="@alquranid" style="width: 150px;" src="https://cdn.discordapp.com/attachments/858321432178196490/1023200282479439933/a2cb87c97e9786637783db3b9639143a.gif">
+
+  <img alt="@stickerwhatsappbot" style="width: 150px;" src="https://github.com/DrelezTM/StickerWhatsAppBOT/assets/72683265/76a3611e-ae4b-4c9a-b44a-7863f4080072">
 </p>
 <div align="center">
   <h3>StickerWhatsAppBOT</h3>
@@ -24,10 +25,10 @@
   npm start
   ```
 * Scan QR
-  <img alt="@stickerwhatsappbot" src="https://media.discordapp.net/attachments/858321432178196490/1023202756049240145/ss2.png?width=1440&height=566">
+  <img alt="@stickerwhatsappbot" src="https://github.com/DrelezTM/StickerWhatsAppBOT/assets/72683265/2ce59cf0-f26b-4cd0-be1a-12f985720ad9">
 
 * Ready
-  <img alt="@stickerwhatsappbot" src="https://media.discordapp.net/attachments/858321432178196490/1023202755709517834/ss1.png?width=1440&height=241">
+  <img alt="@stickerwhatsappbot" src="https://github.com/DrelezTM/StickerWhatsAppBOT/assets/72683265/76cc9f7a-6a5f-4fc2-896c-f54d9e1462f5">
  
  ## Configuration 🗝
 * [config.json](https://github.com/DrelezTM/StickerWhatsAppBOT/blob/main/config/config.json)
