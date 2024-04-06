@@ -1,7 +1,7 @@
 # StickerWhatsAppBOT
 <p align="center">
 
-  <img alt="@stickerwhatsappbot" style="width: 150px;" src="https://github.com/DrelezTM/StickerWhatsAppBOT/assets/72683265/76a3611e-ae4b-4c9a-b44a-7863f4080072">
+  <img alt="@stickerwhatsappbot" style="width: 150px;" src="https://github.com/DrelezTM/StickerWhatsAppBOT/assets/72683265/d3d504a6-7ce4-4937-8182-c37b8a86b456">
 </p>
 <div align="center">
   <h3>StickerWhatsAppBOT</h3>
