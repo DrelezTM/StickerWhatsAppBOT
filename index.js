@@ -44,6 +44,7 @@ client.on('message', async (message) => {
 
         // Image to Sticker (Auto && Caption)
         if ((message.type == "image" || message.type == "video" || message.type  == "gif") || (message._data.caption == `${config.prefix}sticker`)) {
+            if (config.log) console.log(`[${'!'.red}] ${message.author.replace("@c.us", "").yellow} created sticker`);
             client.sendMessage(message.from, "*[⏳]* Loading..");
             try {
                 const media = await message.downloadMedia();
@@ -60,6 +61,7 @@ client.on('message', async (message) => {
 
         // Image to Sticker (With Reply Image)
         } else if (message.body == `${config.prefix}sticker`) {
+            if (config.log) console.log(`[${'!'.red}] ${message.author.replace("@c.us", "").yellow} created sticker`);
             const quotedMsg = await message.getQuotedMessage(); 
             if (message.hasQuotedMsg && quotedMsg.hasMedia) {
                 client.sendMessage(message.from, "*[⏳]* Loading..");
@@ -81,6 +83,7 @@ client.on('message', async (message) => {
 
         // Sticker to Image (Auto)
         } else if (message.type == "sticker") {
+            if (config.log) console.log(`[${'!'.red}] ${message.author.replace("@c.us", "").yellow} convert sticker into image`);
             client.sendMessage(message.from, "*[⏳]* Loading..");
             try {
                 const media = await message.downloadMedia();
@@ -93,6 +96,7 @@ client.on('message', async (message) => {
 
         // Sticker to Image (With Reply Sticker)
         } else if (message.body == `${config.prefix}image`) {
+            if (config.log) console.log(`[${'!'.red}] ${message.author.replace("@c.us", "").yellow} convert sticker into image`);
             const quotedMsg = await message.getQuotedMessage(); 
             if (message.hasQuotedMsg && quotedMsg.hasMedia) {
                 client.sendMessage(message.from, "*[⏳]* Loading..");
@@ -110,6 +114,7 @@ client.on('message', async (message) => {
 
         // Claim or change sticker name and sticker author
         } else if (message.body.startsWith(`${config.prefix}change`)) {
+            if (config.log) console.log(`[${'!'.red}] ${message.author.replace("@c.us", "").yellow} change the author name on the sticker`);
             if (message.body.includes('|')) {
                 let name = message.body.split('|')[0].replace(message.body.split(' ')[0], '').trim();
                 let author = message.body.split('|')[1].trim();

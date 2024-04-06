@@ -3,5 +3,6 @@
     "author": "DrelezTM",
     "prefix": "!",
     "timezone": "Asia/Jakarta",
-    "groups": true
+    "groups": true,
+    "log": true
 }
